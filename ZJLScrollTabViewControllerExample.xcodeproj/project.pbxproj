@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA4BFD2B1D2070DF0068223E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4BFD2A1D2070DF0068223E /* main.m */; };
+		CA4BFD2E1D2070DF0068223E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4BFD2D1D2070DF0068223E /* AppDelegate.m */; };
+		CA4BFD311D2070DF0068223E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4BFD301D2070DF0068223E /* ViewController.m */; };
+		CA4BFD341D2070DF0068223E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4BFD321D2070DF0068223E /* Main.storyboard */; };
+		CA4BFD361D2070DF0068223E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4BFD351D2070DF0068223E /* Assets.xcassets */; };
+		CA4BFD391D2070DF0068223E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4BFD371D2070DF0068223E /* LaunchScreen.storyboard */; };
+		CA4BFD441D2070DF0068223E /* ZJLScrollTabViewControllerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4BFD431D2070DF0068223E /* ZJLScrollTabViewControllerExampleTests.m */; };
+		CA4BFD4F1D2070DF0068223E /* ZJLScrollTabViewControllerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4BFD4E1D2070DF0068223E /* ZJLScrollTabViewControllerExampleUITests.m */; };
+		CA4BFD5F1D20713B0068223E /* UILabel+ZJLScale.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4BFD5E1D20713B0068223E /* UILabel+ZJLScale.m */; };
+		CA4BFD621D2076120068223E /* ZJLScrollTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4BFD611D2076120068223E /* ZJLScrollTabViewController.m */; };
+		CA4BFD651D207E180068223E /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4BFD641D207E180068223E /* MyTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA4BFD401D2070DF0068223E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA4BFD1E1D2070DE0068223E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA4BFD251D2070DF0068223E;
+			remoteInfo = ZJLScrollTabViewControllerExample;
+		};
+		CA4BFD4B1D2070DF0068223E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA4BFD1E1D2070DE0068223E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA4BFD251D2070DF0068223E;
+			remoteInfo = ZJLScrollTabViewControllerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA4BFD261D2070DF0068223E /* ZJLScrollTabViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJLScrollTabViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4BFD2A1D2070DF0068223E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA4BFD2C1D2070DF0068223E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA4BFD2D1D2070DF0068223E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA4BFD2F1D2070DF0068223E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA4BFD301D2070DF0068223E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA4BFD331D2070DF0068223E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA4BFD351D2070DF0068223E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA4BFD381D2070DF0068223E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA4BFD3A1D2070DF0068223E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4BFD3F1D2070DF0068223E /* ZJLScrollTabViewControllerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLScrollTabViewControllerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4BFD431D2070DF0068223E /* ZJLScrollTabViewControllerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLScrollTabViewControllerExampleTests.m; sourceTree = "<group>"; };
+		CA4BFD451D2070DF0068223E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4BFD4A1D2070DF0068223E /* ZJLScrollTabViewControllerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLScrollTabViewControllerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4BFD4E1D2070DF0068223E /* ZJLScrollTabViewControllerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLScrollTabViewControllerExampleUITests.m; sourceTree = "<group>"; };
+		CA4BFD501D2070DF0068223E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4BFD5D1D20713B0068223E /* UILabel+ZJLScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+ZJLScale.h"; path = "ZJLScollViewController/UILabel+ZJLScale.h"; sourceTree = "<group>"; };
+		CA4BFD5E1D20713B0068223E /* UILabel+ZJLScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+ZJLScale.m"; path = "ZJLScollViewController/UILabel+ZJLScale.m"; sourceTree = "<group>"; };
+		CA4BFD601D2076120068223E /* ZJLScrollTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZJLScrollTabViewController.h; path = ZJLScollViewController/ZJLScrollTabViewController.h; sourceTree = "<group>"; };
+		CA4BFD611D2076120068223E /* ZJLScrollTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZJLScrollTabViewController.m; path = ZJLScollViewController/ZJLScrollTabViewController.m; sourceTree = "<group>"; };
+		CA4BFD631D207E180068223E /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTableViewController.h; path = ZJLScollViewController/MyTableViewController.h; sourceTree = "<group>"; };
+		CA4BFD641D207E180068223E /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTableViewController.m; path = ZJLScollViewController/MyTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA4BFD231D2070DF0068223E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4BFD3C1D2070DF0068223E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4BFD471D2070DF0068223E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA4BFD1D1D2070DE0068223E = {
+			isa = PBXGroup;
+			children = (
+				CA4BFD281D2070DF0068223E /* ZJLScrollTabViewControllerExample */,
+				CA4BFD421D2070DF0068223E /* ZJLScrollTabViewControllerExampleTests */,
+				CA4BFD4D1D2070DF0068223E /* ZJLScrollTabViewControllerExampleUITests */,
+				CA4BFD271D2070DF0068223E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA4BFD271D2070DF0068223E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA4BFD261D2070DF0068223E /* ZJLScrollTabViewControllerExample.app */,
+				CA4BFD3F1D2070DF0068223E /* ZJLScrollTabViewControllerExampleTests.xctest */,
+				CA4BFD4A1D2070DF0068223E /* ZJLScrollTabViewControllerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA4BFD281D2070DF0068223E /* ZJLScrollTabViewControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				CA4BFD5C1D2070F10068223E /* ZJLScorllTabViewController */,
+				CA4BFD2C1D2070DF0068223E /* AppDelegate.h */,
+				CA4BFD2D1D2070DF0068223E /* AppDelegate.m */,
+				CA4BFD2F1D2070DF0068223E /* ViewController.h */,
+				CA4BFD301D2070DF0068223E /* ViewController.m */,
+				CA4BFD321D2070DF0068223E /* Main.storyboard */,
+				CA4BFD351D2070DF0068223E /* Assets.xcassets */,
+				CA4BFD371D2070DF0068223E /* LaunchScreen.storyboard */,
+				CA4BFD3A1D2070DF0068223E /* Info.plist */,
+				CA4BFD291D2070DF0068223E /* Supporting Files */,
+			);
+			path = ZJLScrollTabViewControllerExample;
+			sourceTree = "<group>";
+		};
+		CA4BFD291D2070DF0068223E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA4BFD2A1D2070DF0068223E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA4BFD421D2070DF0068223E /* ZJLScrollTabViewControllerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA4BFD431D2070DF0068223E /* ZJLScrollTabViewControllerExampleTests.m */,
+				CA4BFD451D2070DF0068223E /* Info.plist */,
+			);
+			path = ZJLScrollTabViewControllerExampleTests;
+			sourceTree = "<group>";
+		};
+		CA4BFD4D1D2070DF0068223E /* ZJLScrollTabViewControllerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA4BFD4E1D2070DF0068223E /* ZJLScrollTabViewControllerExampleUITests.m */,
+				CA4BFD501D2070DF0068223E /* Info.plist */,
+			);
+			path = ZJLScrollTabViewControllerExampleUITests;
+			sourceTree = "<group>";
+		};
+		CA4BFD5C1D2070F10068223E /* ZJLScorllTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CA4BFD5D1D20713B0068223E /* UILabel+ZJLScale.h */,
+				CA4BFD5E1D20713B0068223E /* UILabel+ZJLScale.m */,
+				CA4BFD601D2076120068223E /* ZJLScrollTabViewController.h */,
+				CA4BFD611D2076120068223E /* ZJLScrollTabViewController.m */,
+				CA4BFD631D207E180068223E /* MyTableViewController.h */,
+				CA4BFD641D207E180068223E /* MyTableViewController.m */,
+			);
+			name = ZJLScorllTabViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA4BFD251D2070DF0068223E /* ZJLScrollTabViewControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4BFD531D2070DF0068223E /* Build configuration list for PBXNativeTarget "ZJLScrollTabViewControllerExample" */;
+			buildPhases = (
+				CA4BFD221D2070DF0068223E /* Sources */,
+				CA4BFD231D2070DF0068223E /* Frameworks */,
+				CA4BFD241D2070DF0068223E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJLScrollTabViewControllerExample;
+			productName = ZJLScrollTabViewControllerExample;
+			productReference = CA4BFD261D2070DF0068223E /* ZJLScrollTabViewControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA4BFD3E1D2070DF0068223E /* ZJLScrollTabViewControllerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4BFD561D2070DF0068223E /* Build configuration list for PBXNativeTarget "ZJLScrollTabViewControllerExampleTests" */;
+			buildPhases = (
+				CA4BFD3B1D2070DF0068223E /* Sources */,
+				CA4BFD3C1D2070DF0068223E /* Frameworks */,
+				CA4BFD3D1D2070DF0068223E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA4BFD411D2070DF0068223E /* PBXTargetDependency */,
+			);
+			name = ZJLScrollTabViewControllerExampleTests;
+			productName = ZJLScrollTabViewControllerExampleTests;
+			productReference = CA4BFD3F1D2070DF0068223E /* ZJLScrollTabViewControllerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA4BFD491D2070DF0068223E /* ZJLScrollTabViewControllerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4BFD591D2070DF0068223E /* Build configuration list for PBXNativeTarget "ZJLScrollTabViewControllerExampleUITests" */;
+			buildPhases = (
+				CA4BFD461D2070DF0068223E /* Sources */,
+				CA4BFD471D2070DF0068223E /* Frameworks */,
+				CA4BFD481D2070DF0068223E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA4BFD4C1D2070DF0068223E /* PBXTargetDependency */,
+			);
+			name = ZJLScrollTabViewControllerExampleUITests;
+			productName = ZJLScrollTabViewControllerExampleUITests;
+			productReference = CA4BFD4A1D2070DF0068223E /* ZJLScrollTabViewControllerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA4BFD1E1D2070DE0068223E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhongZhongzhong;
+				TargetAttributes = {
+					CA4BFD251D2070DF0068223E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+					};
+					CA4BFD3E1D2070DF0068223E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CA4BFD251D2070DF0068223E;
+					};
+					CA4BFD491D2070DF0068223E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CA4BFD251D2070DF0068223E;
+					};
+				};
+			};
+			buildConfigurationList = CA4BFD211D2070DE0068223E /* Build configuration list for PBXProject "ZJLScrollTabViewControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA4BFD1D1D2070DE0068223E;
+			productRefGroup = CA4BFD271D2070DF0068223E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA4BFD251D2070DF0068223E /* ZJLScrollTabViewControllerExample */,
+				CA4BFD3E1D2070DF0068223E /* ZJLScrollTabViewControllerExampleTests */,
+				CA4BFD491D2070DF0068223E /* ZJLScrollTabViewControllerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA4BFD241D2070DF0068223E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4BFD391D2070DF0068223E /* LaunchScreen.storyboard in Resources */,
+				CA4BFD361D2070DF0068223E /* Assets.xcassets in Resources */,
+				CA4BFD341D2070DF0068223E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4BFD3D1D2070DF0068223E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4BFD481D2070DF0068223E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA4BFD221D2070DF0068223E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4BFD311D2070DF0068223E /* ViewController.m in Sources */,
+				CA4BFD2E1D2070DF0068223E /* AppDelegate.m in Sources */,
+				CA4BFD621D2076120068223E /* ZJLScrollTabViewController.m in Sources */,
+				CA4BFD651D207E180068223E /* MyTableViewController.m in Sources */,
+				CA4BFD5F1D20713B0068223E /* UILabel+ZJLScale.m in Sources */,
+				CA4BFD2B1D2070DF0068223E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4BFD3B1D2070DF0068223E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4BFD441D2070DF0068223E /* ZJLScrollTabViewControllerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4BFD461D2070DF0068223E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4BFD4F1D2070DF0068223E /* ZJLScrollTabViewControllerExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA4BFD411D2070DF0068223E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA4BFD251D2070DF0068223E /* ZJLScrollTabViewControllerExample */;
+			targetProxy = CA4BFD401D2070DF0068223E /* PBXContainerItemProxy */;
+		};
+		CA4BFD4C1D2070DF0068223E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA4BFD251D2070DF0068223E /* ZJLScrollTabViewControllerExample */;
+			targetProxy = CA4BFD4B1D2070DF0068223E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA4BFD321D2070DF0068223E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA4BFD331D2070DF0068223E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA4BFD371D2070DF0068223E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA4BFD381D2070DF0068223E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA4BFD511D2070DF0068223E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA4BFD521D2070DF0068223E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA4BFD541D2070DF0068223E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLScrollTabViewControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLScrollTabViewControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA4BFD551D2070DF0068223E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLScrollTabViewControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLScrollTabViewControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA4BFD571D2070DF0068223E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLScrollTabViewControllerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLScrollTabViewControllerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLScrollTabViewControllerExample.app/ZJLScrollTabViewControllerExample";
+			};
+			name = Debug;
+		};
+		CA4BFD581D2070DF0068223E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLScrollTabViewControllerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLScrollTabViewControllerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLScrollTabViewControllerExample.app/ZJLScrollTabViewControllerExample";
+			};
+			name = Release;
+		};
+		CA4BFD5A1D2070DF0068223E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLScrollTabViewControllerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLScrollTabViewControllerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLScrollTabViewControllerExample;
+			};
+			name = Debug;
+		};
+		CA4BFD5B1D2070DF0068223E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLScrollTabViewControllerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLScrollTabViewControllerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLScrollTabViewControllerExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA4BFD211D2070DE0068223E /* Build configuration list for PBXProject "ZJLScrollTabViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4BFD511D2070DF0068223E /* Debug */,
+				CA4BFD521D2070DF0068223E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA4BFD531D2070DF0068223E /* Build configuration list for PBXNativeTarget "ZJLScrollTabViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4BFD541D2070DF0068223E /* Debug */,
+				CA4BFD551D2070DF0068223E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA4BFD561D2070DF0068223E /* Build configuration list for PBXNativeTarget "ZJLScrollTabViewControllerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4BFD571D2070DF0068223E /* Debug */,
+				CA4BFD581D2070DF0068223E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA4BFD591D2070DF0068223E /* Build configuration list for PBXNativeTarget "ZJLScrollTabViewControllerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4BFD5A1D2070DF0068223E /* Debug */,
+				CA4BFD5B1D2070DF0068223E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA4BFD1E1D2070DE0068223E /* Project object */;
+}
