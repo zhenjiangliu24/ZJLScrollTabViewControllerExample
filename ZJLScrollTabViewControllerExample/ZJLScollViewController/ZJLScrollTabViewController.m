@@ -82,7 +82,7 @@ static const CGFloat TopLabelHeight = 40.0;
 {
     for (int i = 0; i<_numberOfTabs; i++) {
         MyTableViewController *testVC = [[MyTableViewController alloc] init];
-        testVC.title = [NSString stringWithFormat:@"Tab %d",i+1];
+        testVC.title = [NSString stringWithFormat:@"Tab %d",i];
         [self addChildViewController:testVC];
     }
 }
@@ -98,14 +98,6 @@ static const CGFloat TopLabelHeight = 40.0;
     [self scrollViewDidEndScrollingAnimation:_contentScrollView];
 }
 
-#pragma mark - update top tab scroll view
-//- (void)updateTopScrollView
-//{
-//    NSInteger index = _contentScrollView.contentOffset.x/_contentScrollView.frame.size.width;
-//    CGFloat centerX = TopLabelWidth/2+index*TopLabelWidth;
-//    CGPoint center = CGPointMake(centerX, _highlightBar.center.y);
-//    _highlightBar.center = center;
-//}
 
 #pragma mark - content scroll view scroll action delegate
 
@@ -137,7 +129,6 @@ static const CGFloat TopLabelHeight = 40.0;
     
     testVC.view.frame = CGRectMake(scrollView.contentOffset.x, 0, scrollView.frame.size.width, scrollView.frame.size.height);
     [_contentScrollView addSubview:testVC.view];
-    //[self updateTopScrollView];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
@@ -147,7 +138,10 @@ static const CGFloat TopLabelHeight = 40.0;
     NSInteger index = num;
     CGFloat centerX = TopLabelWidth/2+index*TopLabelWidth;
     CGPoint center = CGPointMake(centerX, _highlightBar.center.y);
-    _highlightBar.center = center;
+    [UIView animateWithDuration:0.2 animations:^{
+        _highlightBar.center = center;
+    }];
+    
     if (index == _numberOfTabs-1) {
         UILabel *label = _topTabScrollView.subviews[index];
         label.ZJLScale = 1 - (num - index);
